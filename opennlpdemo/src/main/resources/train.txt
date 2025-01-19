@@ -1,0 +1,29 @@
+SOCIAL_MEDIA_BOT_ENABLED_CONFIG     social media chat bot configuration,
+SOCIAL_MEDIA_BOT_ENABLED_CONFIG     use to enable social bot like whatsapp, facebook, instagram, and email bot.
+SOCIAL_MEDIA_BOT_ENABLED_CONFIG     email bot configuration
+SOCIAL_MEDIA_BOT_ENABLED_CONFIG     facebook bot configuration
+SOCIAL_MEDIA_BOT_ENABLED_CONFIG     instagram bot configuration
+SOCIAL_MEDIA_BOT_ENABLED_CONFIG     whatsapp bot configuration
+TICKET_DASHBOARD_CONFIGURATION       refers to the setup and customization of a dashboard that displays key information and metrics related to tickets, such as support tickets, service requests, or incident tickets. The configuration typically involves selecting data sources, visualizations, and filters to present ticket-related insights effectively.
+TICKET_MIGRATION_CONFIGURATION       refers to the setup and process of transferring ticket data from one system or platform to another. This configuration ensures that all necessary details about tickets—such as historical data, statuses, attachments, and user information—are accurately and securely migrated to a new system without loss or corruption.
+QUEUE_KEY_TO_CITY_MAP       refers to a configuration or mapping system that   associates specific queue keys (or identifiers) with corresponding cities or geographic locations. This configuration is typically used in customer service, call centers, or support systems where tickets, requests, or customer interactions are routed based on geographic location.
+TICKET_DASHBOARD_CONFIGURATION The dashboard is configured to show open tickets
+TICKET_DASHBOARD_CONFIGURATION Incident tickets are displayed on the dashboard
+TICKET_DASHBOARD_CONFIGURATION The refresh interval is set to 10 minutes
+TICKET_DASHBOARD_CONFIGURATION Support tickets are visualized using a bar chart
+TICKET_DASHBOARD_CONFIGURATION The dashboard filters include priority and status
+TICKET_DASHBOARD_CONFIGURATION The dashboard shows metrics for resolved tickets
+TICKET_DASHBOARD_CONFIGURATION Service request tickets are shown using a line chart
+TICKET_DASHBOARD_CONFIGURATION The configuration uses data from support tickets
+TICKET_DASHBOARD_CONFIGURATION The dashboard displays the average response time
+TICKET_DASHBOARD_CONFIGURATION The configuration includes filtering by department
+TICKET_DASHBOARD_CONFIGURATION Metrics for critical incidents are shown in a pie chart
+TICKET_DASHBOARD_CONFIGURATION The dashboard refreshes every 30 minutes
+TICKET_DASHBOARD_CONFIGURATION The dashboard setup includes filtering by severity
+TICKET_DASHBOARD_CONFIGURATION Tickets are categorized by type and priority
+TICKET_DASHBOARD_CONFIGURATION Visualizations include tables and heatmaps
+TICKET_DASHBOARD_CONFIGURATION Data sources include support tickets and incident reports
+TICKET_DASHBOARD_CONFIGURATION The dashboard was last updated at 8:00 AM
+TICKET_DASHBOARD_CONFIGURATION The configuration tracks the total number of incidents
+TICKET_DASHBOARD_CONFIGURATION Tickets can be filtered by region on the dashboard
+TICKET_DASHBOARD_CONFIGURATION The dashboard uses historical ticket data for insights

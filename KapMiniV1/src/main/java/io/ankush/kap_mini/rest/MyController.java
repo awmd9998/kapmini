@@ -13,6 +13,8 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -26,6 +28,7 @@ import java.util.*;
 @RequestMapping(value = "/api/custom", produces = MediaType.APPLICATION_JSON_VALUE)
 public class MyController {
 
+    private static final Logger log = LoggerFactory.getLogger(MyController.class);
     @Autowired
     private SubDomainRepository subDomainRepository;
     // using UserId --> get all Application
@@ -79,6 +82,7 @@ public class MyController {
             @PathVariable(name = "userId") final UUID userId,
             @PathVariable(name = "templateId") final UUID templateId
     ) {
+        log.info("userId : "+userId+ " templateId: "+templateId);
         JSONObject response = new JSONObject();
 
         UserDTO userDTO=  userService.get(userId);
